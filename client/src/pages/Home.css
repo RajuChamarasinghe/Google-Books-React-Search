@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.main-container {
+    background-color: aqua;
+}
+
+.jumbotron {
+    background-color: chartreuse;
+}
