@@ -19,13 +19,13 @@ app.use(routes);
 // Connect to the Mongo DB
 mongoose.connect(
   "mongodb://rajuc:RajuC1220@ds211368.mlab.com:11368/heroku_0swwf63f",
-  // {
-  //   useCreateIndex: true,
-  //   useNewUrlParser: true
-  // }
+  {
+    useCreateIndex: true,
+    useNewUrlParser: true
+  }
 );
 
-// Start the API server
+// To Start the API server
 app.listen(PORT, () =>
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`)
 );
